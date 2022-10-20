@@ -1,0 +1,32 @@
+#myDiv1 {
+    height: 100px;
+    width: 100px;
+    background: tomato;
+    margin: auto;
+    border: 5px dotted black;
+    animation: colorchange 5s infinite;
+    text-align: center;
+}
+
+@keyframes colorchange {
+
+    0% {
+        background: red
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: red;
+    }
+}
